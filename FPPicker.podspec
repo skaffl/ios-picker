@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
     FPPicker/Shared/FPSource+SupportedSources.h
     FPPicker/Shared/FPSimpleAPI.h
     FPPicker/Shared/FPSource.h
+		FPPicker/Shared/FPAPIClient.h
   )
 
   s.ios.public_header_files = %w(
