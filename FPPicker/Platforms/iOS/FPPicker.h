@@ -27,3 +27,5 @@ FOUNDATION_EXPORT const unsigned char FPPickerVersionString[];
 #import "FPSimpleAPI.h"
 #import "FPTheme.h"
 #import "FPAPIClient.h"
+#import "FPLibrary.h"
+#import "FPTypedefs.h"
