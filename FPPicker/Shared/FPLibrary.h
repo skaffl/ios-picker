@@ -43,8 +43,6 @@
                         andMimetypes:(NSArray *)mimetypes
                          cachePolicy:(NSURLRequestCachePolicy)policy;
 
-#ifdef FPLibrary_protected
-
 + (void)uploadLocalURLToFilepicker:(NSURL *)localURL
                              named:(NSString *)filename
                         ofMimetype:(NSString *)mimetype
@@ -52,7 +50,5 @@
                            success:(FPUploadAssetSuccessBlock)success
                            failure:(FPUploadAssetFailureBlock)failure
                           progress:(FPUploadAssetProgressBlock)progress;
-
-#endif
 
 @end
