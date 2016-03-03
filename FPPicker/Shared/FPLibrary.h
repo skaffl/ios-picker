@@ -43,6 +43,15 @@
                         andMimetypes:(NSArray *)mimetypes
                          cachePolicy:(NSURLRequestCachePolicy)policy;
 
+
++ (NSURLRequest *)requestForLoadPath:(NSString *)loadpath
+                          withFormat:(NSString *)type
+                         queryString:(NSString *)queryString
+                        andMimetypes:(NSArray *)mimetypes
+                         cachePolicy:(NSURLRequestCachePolicy)policy
+                     shouldURLEncode:(BOOL)encode;
+
+
 + (void)uploadLocalURLToFilepicker:(NSURL *)localURL
                              named:(NSString *)filename
                         ofMimetype:(NSString *)mimetype
